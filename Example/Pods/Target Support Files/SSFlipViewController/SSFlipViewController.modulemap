@@ -1,0 +1,6 @@
+framework module SSFlipViewController {
+  umbrella header "SSFlipViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

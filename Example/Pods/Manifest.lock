@@ -1,0 +1,16 @@
+PODS:
+  - SSFlipViewController (0.1.0)
+
+DEPENDENCIES:
+  - SSFlipViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SSFlipViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSFlipViewController: 786d80cadbe36866d6928a280b6f6ed8e01835d5
+
+PODFILE CHECKSUM: e0cbf353632d457539e7a5c0d3bb6d09c53602e3
+
+COCOAPODS: 1.5.0
