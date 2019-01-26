@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import SSFlipViewController
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, SSFlipViewControllerDelegate {
+    func didFlip(flipVC: SSFlipViewController) {
+        print("This is flipping awesome!!!")
+    }
+    
+    var flipVC: SSFlipViewController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let front = FrontViewController()
+        let back = BackViewController()
+        flipVC = SSFlipViewController(front: front, back: back, delegate: self)
+        addChild(flipVC)
+        view.addSubview(flipVC.view)
     }
 
 }
-

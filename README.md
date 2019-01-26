@@ -19,7 +19,19 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SSFlipViewController'
 ```
+## Usage
+To use as a view within another UIViewController:
+```swift
+import SSFlipViewController
 
+override func viewDidLoad() {
+    let flipVC = SSFlipViewController()
+    flipVC.frontVC = viewController1
+    flipVC.backVC = viewController2
+    addChild(flipVC)
+    view.addSubview(flipVC.view)
+}
+```
 ## Author
 
 sestinj, 33237525+sestinj@users.noreply.github.com

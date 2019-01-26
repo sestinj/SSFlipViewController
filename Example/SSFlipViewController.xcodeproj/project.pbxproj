@@ -14,6 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7E88EA8B21FB5C7C00BDCE8B /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88EA8921FB5C7C00BDCE8B /* FrontViewController.swift */; };
+		7E88EA8C21FB5C7C00BDCE8B /* FrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E88EA8A21FB5C7C00BDCE8B /* FrontViewController.xib */; };
+		7E88EA8F21FB5C8B00BDCE8B /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88EA8D21FB5C8B00BDCE8B /* BackViewController.swift */; };
+		7E88EA9021FB5C8B00BDCE8B /* BackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E88EA8E21FB5C8B00BDCE8B /* BackViewController.xib */; };
 		AA64CABCF05E8E41BAA225B5 /* Pods_SSFlipViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6716304D14DAB5C638BC9D23 /* Pods_SSFlipViewController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		1695E829010BDA04C827D0EE /* Pods_SSFlipViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFlipViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17FB11FFBF8923D9E6F2D838 /* SSFlipViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSFlipViewController.podspec; path = ../SSFlipViewController.podspec; sourceTree = "<group>"; };
+		17FB11FFBF8923D9E6F2D838 /* SSFlipViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSFlipViewController.podspec; path = ../SSFlipViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3C002A04C05B1E7C43BA82E1 /* Pods-SSFlipViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFlipViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSFlipViewController_Example/Pods-SSFlipViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SSFlipViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSFlipViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +47,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6716304D14DAB5C638BC9D23 /* Pods_SSFlipViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFlipViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7166127E3FC15526EB2B2134 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E88EA8921FB5C7C00BDCE8B /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		7E88EA8A21FB5C7C00BDCE8B /* FrontViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FrontViewController.xib; sourceTree = "<group>"; };
+		7E88EA8D21FB5C8B00BDCE8B /* BackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
+		7E88EA8E21FB5C8B00BDCE8B /* BackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackViewController.xib; sourceTree = "<group>"; };
 		AA3E1169F2D954C547286683 /* Pods-SSFlipViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFlipViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSFlipViewController_Example/Pods-SSFlipViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1AB600869E23BE6ED5654F9 /* Pods-SSFlipViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSFlipViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSFlipViewController_Tests/Pods-SSFlipViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5249C3E7AF5863E2465F54B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				7E88EA8921FB5C7C00BDCE8B /* FrontViewController.swift */,
+				7E88EA8A21FB5C7C00BDCE8B /* FrontViewController.xib */,
+				7E88EA8D21FB5C8B00BDCE8B /* BackViewController.swift */,
+				7E88EA8E21FB5C8B00BDCE8B /* BackViewController.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,10 +224,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R369N894US;
 						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R369N894US;
 						LastSwiftMigration = 1010;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -245,9 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E88EA8C21FB5C7C00BDCE8B /* FrontViewController.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				7E88EA9021FB5C8B00BDCE8B /* BackViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E88EA8B21FB5C7C00BDCE8B /* FrontViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				7E88EA8F21FB5C8B00BDCE8B /* BackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +491,7 @@
 			baseConfigurationReference = 3C002A04C05B1E7C43BA82E1 /* Pods-SSFlipViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R369N894US;
 				INFOPLIST_FILE = SSFlipViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -487,6 +506,7 @@
 			baseConfigurationReference = AA3E1169F2D954C547286683 /* Pods-SSFlipViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R369N894US;
 				INFOPLIST_FILE = SSFlipViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -500,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1AB600869E23BE6ED5654F9 /* Pods-SSFlipViewController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R369N894US;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -521,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F44C80FFBAEF653D4CB704B1 /* Pods-SSFlipViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R369N894US;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
