@@ -34,7 +34,7 @@ override func viewDidLoad() {
 ```
 ## Author
 
-sestinj, 33237525+sestinj@users.noreply.github.com
+sestinj, sestinj@gmail.com, Sam Sesti on the App Store
 
 ## License
 

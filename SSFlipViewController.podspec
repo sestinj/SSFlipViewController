@@ -31,7 +31,7 @@ SSFlipViewController is a subclass of UIViewController that contains two child v
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/*.swift'
+  s.source_files = 'src/*.swift'
   
   # s.resource_bundles = {
   #   'SSFlipViewController' => ['SSFlipViewController/Assets/*.png']

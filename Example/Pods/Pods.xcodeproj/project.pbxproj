@@ -134,8 +134,7 @@
 		658E50B38931405B85DD95551358CE5B /* SSFlipViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */,
-				7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */,
+				7EF477C621FC0B4E009C5283 /* src */,
 				A903589693359B6A0AFFCDF1055FD111 /* Pod */,
 				E52CB86694FD2E403B6972C95C6BD4E3 /* Support Files */,
 			);
@@ -160,6 +159,15 @@
 				DDEDDDFAF21D58DB13140964D4562178 /* Products */,
 				4B00B0566389844C8EB5E392B8C985C9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7EF477C621FC0B4E009C5283 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */,
+				7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		A903589693359B6A0AFFCDF1055FD111 /* Pod */ = {
