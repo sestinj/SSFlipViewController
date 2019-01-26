@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSFlipViewController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A two-sided view with a UIViewController on each side.'
   s.swift_version    = '4.2'
 
