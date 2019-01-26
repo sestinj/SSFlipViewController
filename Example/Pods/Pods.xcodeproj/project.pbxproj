@@ -11,8 +11,8 @@
 		2D0049A58BDABEB1F8446A416E8B2E65 /* Pods-SSFlipViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882679498D544E0B9BD85F67E34A70A0 /* Pods-SSFlipViewController_Tests-dummy.m */; };
 		514C8C8B92E880624704C8BBD01B860D /* Pods-SSFlipViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF79B0DCA662F4074AE165B8EF3C3D /* Pods-SSFlipViewController_Example-dummy.m */; };
 		632A3BD61760D7A1FD0A5AB2129D8C8A /* SSFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE932DAF69488677A13B268E16A4519 /* SSFlipViewController-dummy.m */; };
-		7E88EA8721FB5A8E00BDCE8B /* SSFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88EA8521FB5A8E00BDCE8B /* SSFlipViewController.swift */; };
-		7E88EA8821FB5A8E00BDCE8B /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E88EA8621FB5A8E00BDCE8B /* CALayer+Extension.swift */; };
+		7EBB645021FC0A3400F5368E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */; };
+		7EBB645221FC0A4100F5368E /* SSFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */; };
 		9EE4000841D23EF3EE523C1D55C2F956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A126F90D91F996BDAFE73AC7C7A1289F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B5655DFF3FF1AB159BC9B1F722E2402E /* Pods-SSFlipViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C150CD6F37D1E3D413BB7B17193C8E2 /* Pods-SSFlipViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,8 +53,8 @@
 		743E6EAF62A8D3D8813EDE42867A2CBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745F3CD0E82F6B2C1A4DB1549669C22A /* Pods-SSFlipViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFlipViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		793F828EAF2A67E4E9B59C6B75D486A5 /* Pods-SSFlipViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSFlipViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7E88EA8521FB5A8E00BDCE8B /* SSFlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSFlipViewController.swift; sourceTree = "<group>"; };
-		7E88EA8621FB5A8E00BDCE8B /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSFlipViewController.swift; sourceTree = "<group>"; };
 		80EACACB0CF60E29235B551555BFDD0A /* Pods-SSFlipViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSFlipViewController_Example.modulemap"; sourceTree = "<group>"; };
 		8730B4508084646E6298F65E330E3A31 /* Pods-SSFlipViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFlipViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		882679498D544E0B9BD85F67E34A70A0 /* Pods-SSFlipViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSFlipViewController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 		658E50B38931405B85DD95551358CE5B /* SSFlipViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7E88EA8621FB5A8E00BDCE8B /* CALayer+Extension.swift */,
-				7E88EA8521FB5A8E00BDCE8B /* SSFlipViewController.swift */,
+				7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */,
+				7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */,
 				A903589693359B6A0AFFCDF1055FD111 /* Pod */,
 				E52CB86694FD2E403B6972C95C6BD4E3 /* Support Files */,
 			);
@@ -360,8 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				632A3BD61760D7A1FD0A5AB2129D8C8A /* SSFlipViewController-dummy.m in Sources */,
-				7E88EA8721FB5A8E00BDCE8B /* SSFlipViewController.swift in Sources */,
-				7E88EA8821FB5A8E00BDCE8B /* CALayer+Extension.swift in Sources */,
+				7EBB645021FC0A3400F5368E /* CALayer+Extension.swift in Sources */,
+				7EBB645221FC0A4100F5368E /* SSFlipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
