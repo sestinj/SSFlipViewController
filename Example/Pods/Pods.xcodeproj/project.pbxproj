@@ -9,15 +9,16 @@
 /* Begin PBXBuildFile section */
 		20B9A38FA7C4EB98F19437E6CCE82296 /* Pods-SSFlipViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F828EAF2A67E4E9B59C6B75D486A5 /* Pods-SSFlipViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D0049A58BDABEB1F8446A416E8B2E65 /* Pods-SSFlipViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882679498D544E0B9BD85F67E34A70A0 /* Pods-SSFlipViewController_Tests-dummy.m */; };
+		398E560B725ED9B5E47A21BAE8646265 /* SSFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661D3EB355F1BB6816474C1B6804797 /* SSFlipViewController.swift */; };
 		514C8C8B92E880624704C8BBD01B860D /* Pods-SSFlipViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF79B0DCA662F4074AE165B8EF3C3D /* Pods-SSFlipViewController_Example-dummy.m */; };
-		632A3BD61760D7A1FD0A5AB2129D8C8A /* SSFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE932DAF69488677A13B268E16A4519 /* SSFlipViewController-dummy.m */; };
-		7EBB645021FC0A3400F5368E /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */; };
-		7EBB645221FC0A4100F5368E /* SSFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */; };
-		9EE4000841D23EF3EE523C1D55C2F956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A126F90D91F996BDAFE73AC7C7A1289F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		99BC1CB7C2E3D4163FBB84EA58B62054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9EE4000841D23EF3EE523C1D55C2F956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A281C8FB75D3C0E9AC175B97EED8C69E /* SSFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411AEDF6AC2675B94D21F54768384DFB /* SSFlipViewController-dummy.m */; };
 		B5655DFF3FF1AB159BC9B1F722E2402E /* Pods-SSFlipViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C150CD6F37D1E3D413BB7B17193C8E2 /* Pods-SSFlipViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF1C392AA5477D5255EB1932A1A472A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E422D8762640C076C48C155FDA1B6C53 /* SSFlipViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA1D2F82539E14E2A0AC60FE5CCFBF2 /* SSFlipViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62E9DF994F038927DB36112C4A96678 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ADBBC4F6F2FE6BB853CE5F71CC4472 /* CALayer+Extension.swift */; };
+		DF1C392AA5477D5255EB1932A1A472A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DF954E8E49683A4AF7B554BCDB7C4B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E422D8762640C076C48C155FDA1B6C53 /* SSFlipViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1453333A2D37B705AF3E3FDC29C64862 /* SSFlipViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,41 +40,42 @@
 
 /* Begin PBXFileReference section */
 		0127E1649234E63BE32FF2D3F0E0903E /* Pods-SSFlipViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFlipViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0B7CABDEC8CA962D78EFB5A053029FAF /* SSFlipViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSFlipViewController.modulemap; sourceTree = "<group>"; };
-		1310FDA20FED72B25AEEA45BC6EA4F7B /* SSFlipViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SSFlipViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1453333A2D37B705AF3E3FDC29C64862 /* SSFlipViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFlipViewController-umbrella.h"; sourceTree = "<group>"; };
 		1661166871C35F1E17A07C3402D40BE3 /* Pods-SSFlipViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSFlipViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C150CD6F37D1E3D413BB7B17193C8E2 /* Pods-SSFlipViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSFlipViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		2AFB1A8FEF0D5A85EB1DCAFC61F22587 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F07889093D05ABDD172A89F40C65D6A /* Pods_SSFlipViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFlipViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F6D9E4C58EF9CF47E265F47431ED31 /* Pods-SSFlipViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSFlipViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		411AEDF6AC2675B94D21F54768384DFB /* SSFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSFlipViewController-dummy.m"; sourceTree = "<group>"; };
+		4EF2A7EFBCDA180293DB34BA0EBFD0EC /* SSFlipViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSFlipViewController.modulemap; sourceTree = "<group>"; };
 		54AB0960DC600F792D2B05460953A596 /* Pods-SSFlipViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSFlipViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B27C239FFFF13DA8DB73A139FD207E1 /* SSFlipViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSFlipViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAD8295E28ADD08B79E0C7014581DF8 /* Pods-SSFlipViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFlipViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		743E6EAF62A8D3D8813EDE42867A2CBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745F3CD0E82F6B2C1A4DB1549669C22A /* Pods-SSFlipViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFlipViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		793F828EAF2A67E4E9B59C6B75D486A5 /* Pods-SSFlipViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSFlipViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
-		7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSFlipViewController.swift; sourceTree = "<group>"; };
 		80EACACB0CF60E29235B551555BFDD0A /* Pods-SSFlipViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSFlipViewController_Example.modulemap"; sourceTree = "<group>"; };
 		8730B4508084646E6298F65E330E3A31 /* Pods-SSFlipViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFlipViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		882679498D544E0B9BD85F67E34A70A0 /* Pods-SSFlipViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSFlipViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		8DE932DAF69488677A13B268E16A4519 /* SSFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSFlipViewController-dummy.m"; sourceTree = "<group>"; };
 		909C928F3029D04536BF06AF7438A824 /* Pods-SSFlipViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFlipViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91D17B2CA1740DD5CE7374C64D979694 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DF79B0DCA662F4074AE165B8EF3C3D /* Pods-SSFlipViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSFlipViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		AE48ACF6D0DD7278E891F6AFD3154B77 /* Pods-SSFlipViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSFlipViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B230305C2016821908E26AB62D0EF704 /* SSFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSFlipViewController.xcconfig; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B886E375A224844DB8923C10FC069B41 /* Pods-SSFlipViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFlipViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		BAA1D2F82539E14E2A0AC60FE5CCFBF2 /* SSFlipViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFlipViewController-umbrella.h"; sourceTree = "<group>"; };
+		BCE3A06490D92C0FDC5FFE5727C6B175 /* SSFlipViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SSFlipViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3AD6E722AFAE447C718FD3E101B3203 /* Pods_SSFlipViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSFlipViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CBB7F919CC19E4BB4162C40D9B6A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1979959EAE46495C92E54A65773A6C4 /* SSFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFlipViewController-prefix.pch"; sourceTree = "<group>"; };
+		D29734526EF52544A465DE0081CC1C16 /* SSFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSFlipViewController.xcconfig; sourceTree = "<group>"; };
 		D49829007404CB58C23600A22CDF58FA /* Pods-SSFlipViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFlipViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5EAE6B09CB379FC91AD8CD6E5D8E1D2 /* Pods-SSFlipViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSFlipViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		D716AF79CE7EEC8E883789BA2E5CDB41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D80988BC54A314388445F284A4C43009 /* Pods-SSFlipViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFlipViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F32AB7B5846032C790EE43A648748481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FC5C8B8AAF9865771166C7AA16AB7832 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F17B15C5782F30F32740C166A26636E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3ADBBC4F6F2FE6BB853CE5F71CC4472 /* CALayer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extension.swift"; path = "src/CALayer+Extension.swift"; sourceTree = "<group>"; };
+		F661D3EB355F1BB6816474C1B6804797 /* SSFlipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSFlipViewController.swift; path = src/SSFlipViewController.swift; sourceTree = "<group>"; };
+		FE48A0D416772109ACDBE24D57D2982A /* SSFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFlipViewController-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +87,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96ABD2C40C9FCB8E5D256D18449EBCE9 /* Frameworks */ = {
+		8696FCE86BF609FD239BF12C8EB080C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A126F90D91F996BDAFE73AC7C7A1289F /* Foundation.framework in Frameworks */,
+				DF954E8E49683A4AF7B554BCDB7C4B42 /* Foundation.framework in Frameworks */,
+				99BC1CB7C2E3D4163FBB84EA58B62054 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +125,35 @@
 			path = "Target Support Files/Pods-SSFlipViewController_Tests";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43F068B8F1AC0FD8EA8236EC02E82CF9 /* SSFlipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3ADBBC4F6F2FE6BB853CE5F71CC4472 /* CALayer+Extension.swift */,
+				F661D3EB355F1BB6816474C1B6804797 /* SSFlipViewController.swift */,
+				AA8E827921D0B2C4CE26D6E63ECB821F /* Pod */,
+				4CCC36E54BEBD1BA3D7B258F9AC8610A /* Support Files */,
+			);
+			name = SSFlipViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		4B00B0566389844C8EB5E392B8C985C9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,61 +163,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		658E50B38931405B85DD95551358CE5B /* SSFlipViewController */ = {
+		4CCC36E54BEBD1BA3D7B258F9AC8610A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7EF477C621FC0B4E009C5283 /* src */,
-				A903589693359B6A0AFFCDF1055FD111 /* Pod */,
-				E52CB86694FD2E403B6972C95C6BD4E3 /* Support Files */,
+				F17B15C5782F30F32740C166A26636E4 /* Info.plist */,
+				4EF2A7EFBCDA180293DB34BA0EBFD0EC /* SSFlipViewController.modulemap */,
+				D29734526EF52544A465DE0081CC1C16 /* SSFlipViewController.xcconfig */,
+				411AEDF6AC2675B94D21F54768384DFB /* SSFlipViewController-dummy.m */,
+				FE48A0D416772109ACDBE24D57D2982A /* SSFlipViewController-prefix.pch */,
+				1453333A2D37B705AF3E3FDC29C64862 /* SSFlipViewController-umbrella.h */,
 			);
-			name = SSFlipViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		72D3E17863430D839F824EA3CD39C699 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				658E50B38931405B85DD95551358CE5B /* SSFlipViewController */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SSFlipViewController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				72D3E17863430D839F824EA3CD39C699 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BA5B9112257B1374C44BB08BF174C4DA /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				DDEDDDFAF21D58DB13140964D4562178 /* Products */,
 				4B00B0566389844C8EB5E392B8C985C9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EF477C621FC0B4E009C5283 /* src */ = {
+		AA8E827921D0B2C4CE26D6E63ECB821F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7EBB645121FC0A4100F5368E /* SSFlipViewController.swift */,
-				7EBB644F21FC0A3400F5368E /* CALayer+Extension.swift */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		A903589693359B6A0AFFCDF1055FD111 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F32AB7B5846032C790EE43A648748481 /* LICENSE */,
-				FC5C8B8AAF9865771166C7AA16AB7832 /* README.md */,
-				1310FDA20FED72B25AEEA45BC6EA4F7B /* SSFlipViewController.podspec */,
+				D716AF79CE7EEC8E883789BA2E5CDB41 /* LICENSE */,
+				91D17B2CA1740DD5CE7374C64D979694 /* README.md */,
+				BCE3A06490D92C0FDC5FFE5727C6B175 /* SSFlipViewController.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BA5B9112257B1374C44BB08BF174C4DA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				43F068B8F1AC0FD8EA8236EC02E82CF9 /* SSFlipViewController */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D1FD2892CE21948B93EF385DCB60493C /* Pods-SSFlipViewController_Example */ = {
@@ -206,14 +224,6 @@
 			path = "Target Support Files/Pods-SSFlipViewController_Example";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		DDEDDDFAF21D58DB13140964D4562178 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,20 +232,6 @@
 				5B27C239FFFF13DA8DB73A139FD207E1 /* SSFlipViewController.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E52CB86694FD2E403B6972C95C6BD4E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2AFB1A8FEF0D5A85EB1DCAFC61F22587 /* Info.plist */,
-				0B7CABDEC8CA962D78EFB5A053029FAF /* SSFlipViewController.modulemap */,
-				B230305C2016821908E26AB62D0EF704 /* SSFlipViewController.xcconfig */,
-				8DE932DAF69488677A13B268E16A4519 /* SSFlipViewController-dummy.m */,
-				D1979959EAE46495C92E54A65773A6C4 /* SSFlipViewController-prefix.pch */,
-				BAA1D2F82539E14E2A0AC60FE5CCFBF2 /* SSFlipViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SSFlipViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +304,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00612F9A39BBA89767CB2CC86B8F8B87 /* Build configuration list for PBXNativeTarget "SSFlipViewController" */;
 			buildPhases = (
-				C6D9926832F3876AF216E5B93A4FDE0C /* Sources */,
-				96ABD2C40C9FCB8E5D256D18449EBCE9 /* Frameworks */,
+				F483614D0AA23878D22DAFA07F08583C /* Sources */,
+				8696FCE86BF609FD239BF12C8EB080C6 /* Frameworks */,
 				21118A498849906EDBC4F28B083CA0BD /* Headers */,
 			);
 			buildRules = (
@@ -330,15 +326,7 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1010;
 				TargetAttributes = {
-					45FE0F5E7E59A6429FE67524DC18FCF9 = {
-						DevelopmentTeam = R369N894US;
-					};
 					5ED3F931360655B4D2AA49F008EAACDF = {
-						DevelopmentTeam = R369N894US;
-						LastSwiftMigration = 1010;
-					};
-					C0954F8C04BBBF6DF87DDEC4FB5BBF9F = {
-						DevelopmentTeam = R369N894US;
 						LastSwiftMigration = 1010;
 					};
 				};
@@ -363,16 +351,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6D9926832F3876AF216E5B93A4FDE0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				632A3BD61760D7A1FD0A5AB2129D8C8A /* SSFlipViewController-dummy.m in Sources */,
-				7EBB645021FC0A3400F5368E /* CALayer+Extension.swift in Sources */,
-				7EBB645221FC0A4100F5368E /* SSFlipViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D88BC8B9A6D504E9D710331DA70F5D34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +364,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D0049A58BDABEB1F8446A416E8B2E65 /* Pods-SSFlipViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F483614D0AA23878D22DAFA07F08583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62E9DF994F038927DB36112C4A96678 /* CALayer+Extension.swift in Sources */,
+				A281C8FB75D3C0E9AC175B97EED8C69E /* SSFlipViewController-dummy.m in Sources */,
+				398E560B725ED9B5E47A21BAE8646265 /* SSFlipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,53 +395,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F3D378E49005209815BE2C8453B477C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B230305C2016821908E26AB62D0EF704 /* SSFlipViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R369N894US;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSFlipViewController/SSFlipViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSFlipViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSFlipViewController/SSFlipViewController.modulemap";
-				PRODUCT_MODULE_NAME = SSFlipViewController;
-				PRODUCT_NAME = SSFlipViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2EFF0883A8B539490A54D4960806B2DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D49829007404CB58C23600A22CDF58FA /* Pods-SSFlipViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R369N894US;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -484,13 +437,12 @@
 			baseConfigurationReference = 745F3CD0E82F6B2C1A4DB1549669C22A /* Pods-SSFlipViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R369N894US;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -519,13 +471,12 @@
 			baseConfigurationReference = 909C928F3029D04536BF06AF7438A824 /* Pods-SSFlipViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R369N894US;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -611,6 +562,38 @@
 			};
 			name = Debug;
 		};
+		B27FBE43C546B00846DE914D11D91A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29734526EF52544A465DE0081CC1C16 /* SSFlipViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSFlipViewController/SSFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSFlipViewController/SSFlipViewController.modulemap";
+				PRODUCT_MODULE_NAME = SSFlipViewController;
+				PRODUCT_NAME = SSFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -670,19 +653,51 @@
 			};
 			name = Release;
 		};
+		BAB2CA386BD40FD63E7FAC1E95A59F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29734526EF52544A465DE0081CC1C16 /* SSFlipViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSFlipViewController/SSFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSFlipViewController/SSFlipViewController.modulemap";
+				PRODUCT_MODULE_NAME = SSFlipViewController;
+				PRODUCT_NAME = SSFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BCA82F55ABD1AD17000376EB30B0D12D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0127E1649234E63BE32FF2D3F0E0903E /* Pods-SSFlipViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R369N894US;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -708,49 +723,14 @@
 			};
 			name = Debug;
 		};
-		EDEFF32F228532A610FA76457AF9BBC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B230305C2016821908E26AB62D0EF704 /* SSFlipViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R369N894US;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSFlipViewController/SSFlipViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSFlipViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSFlipViewController/SSFlipViewController.modulemap";
-				PRODUCT_MODULE_NAME = SSFlipViewController;
-				PRODUCT_NAME = SSFlipViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		00612F9A39BBA89767CB2CC86B8F8B87 /* Build configuration list for PBXNativeTarget "SSFlipViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F3D378E49005209815BE2C8453B477C /* Debug */,
-				EDEFF32F228532A610FA76457AF9BBC6 /* Release */,
+				B27FBE43C546B00846DE914D11D91A4A /* Debug */,
+				BAB2CA386BD40FD63E7FAC1E95A59F7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

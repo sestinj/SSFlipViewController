@@ -11,7 +11,7 @@ import SSFlipViewController
 
 class ViewController: UIViewController, SSFlipViewControllerDelegate {
     func didFlip(flipVC: SSFlipViewController) {
-        print("This is flipping awesome!!!")
+        print("So flippin' cool!!!")
     }
     
     var flipVC: SSFlipViewController!
@@ -20,7 +20,8 @@ class ViewController: UIViewController, SSFlipViewControllerDelegate {
         super.viewDidLoad()
         let front = FrontViewController()
         let back = BackViewController()
-        flipVC = SSFlipViewController(front: front, back: back, delegate: self)
+        flipVC = SSFlipViewController(front: front, back: back)
+        flipVC.delegate = self
         addChild(flipVC)
         view.addSubview(flipVC.view)
     }

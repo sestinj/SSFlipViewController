@@ -1,5 +1,5 @@
 PODS:
-  - SSFlipViewController (0.1.0)
+  - SSFlipViewController (0.1.1)
 
 DEPENDENCIES:
   - SSFlipViewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SSFlipViewController: 786d80cadbe36866d6928a280b6f6ed8e01835d5
+  SSFlipViewController: 615d03294765557ee2abac63040ae211d0e837cd
 
 PODFILE CHECKSUM: e0cbf353632d457539e7a5c0d3bb6d09c53602e3
 

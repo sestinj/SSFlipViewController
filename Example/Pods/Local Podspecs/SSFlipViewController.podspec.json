@@ -1,8 +1,9 @@
 {
   "name": "SSFlipViewController",
-  "version": "0.1.0",
-  "summary": "A short description of SSFlipViewController.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A two-sided view with a UIViewController on each side.",
+  "swift_version": "4.2",
+  "description": "SSFlipViewController is a subclass of UIViewController that contains two child view controllers. They are displayed on opposite sides of a view, which can be flipped between the two faces. SSFlipViewController can either be a view within another view controller, or take up an entire screen as a main view controller.",
   "homepage": "https://github.com/sestinj/SSFlipViewController",
   "license": {
     "type": "MIT",
@@ -13,10 +14,11 @@
   },
   "source": {
     "git": "https://github.com/sestinj/SSFlipViewController.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SSFlipViewController/Classes/**/*"
+  "source_files": "src/*.swift",
+  "frameworks": "UIKit"
 }
