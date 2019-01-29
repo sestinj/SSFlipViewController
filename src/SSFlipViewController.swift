@@ -11,7 +11,7 @@ public protocol SSFlipViewControllerDelegate {
     func didFlip(flipVC: SSFlipViewController)
 }
 
-public class SSFlipViewController: UIViewController {
+open class SSFlipViewController: UIViewController {
     ///The front view controller.
     public var frontVC: UIViewController!
     ///The back view controller.
@@ -38,11 +38,11 @@ public class SSFlipViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         view.addSubview(frontVC.view)
@@ -55,7 +55,7 @@ public class SSFlipViewController: UIViewController {
         backVC.view.layer.flipAnimation(0.0, axis: flipAxis, angle: CGFloat.pi)
     }
     
-    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {if flipsOnTouch {flip()}}
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {if flipsOnTouch {flip()}}
     
     ///Animates the flipping of the view controller
     @objc public func flip() {
