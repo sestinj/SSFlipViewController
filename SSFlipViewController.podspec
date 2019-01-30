@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSFlipViewController'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Animate flips between the two sides of a two sided view controller.'
   s.swift_version    = '4.2'
 

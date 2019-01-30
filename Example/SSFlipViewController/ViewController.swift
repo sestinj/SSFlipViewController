@@ -20,7 +20,13 @@ class ViewController: UIViewController, SSFlipViewControllerDelegate {
         super.viewDidLoad()
         let front = FrontViewController()
         let back = BackViewController()
-        flipVC = SSFlipViewController(front: front, back: back)
+        let third = FrontViewController()
+        let fourth = BackViewController()
+        fourth.view.backgroundColor = .orange
+        third.view.backgroundColor = .red
+        flipVC = SSFlipViewController(viewControllers: [front, back, third, fourth])
+        flipVC.flipAxis = .xy
+        flipVC.flipInterval = 1.0
         flipVC.delegate = self
         addChild(flipVC)
         view.addSubview(flipVC.view)
