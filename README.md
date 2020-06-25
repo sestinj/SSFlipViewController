@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SSFlipViewController.svg?style=flat)](https://cocoapods.org/pods/SSFlipViewController)
 [![Platform](https://img.shields.io/cocoapods/p/SSFlipViewController.svg?style=flat)](https://cocoapods.org/pods/SSFlipViewController)
 
+## What is it?
+
+SSFlipViewController makes it easy to rotate your Swift views in 3D about any axis.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
